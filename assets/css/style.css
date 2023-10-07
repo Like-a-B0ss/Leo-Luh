@@ -516,6 +516,43 @@ color: #fff;
 
 }
 
+/* Estilos para a seção Hero em telas menores */
+@media (max-width: 768px) {
+  .hero-container {
+    text-align: center; /* Centraliza o conteúdo em telas menores */
+  }
+
+  .contador {
+    display: flex;
+    flex-wrap: wrap; /* Faz com que os itens do contador quebrem para a próxima linha em telas menores */
+    justify-content: center; /* Centraliza os itens do contador */
+  }
+
+  .item {
+    width: 50%; /* Define a largura dos itens do contador para 50% da largura da tela */
+    box-sizing: border-box; /* Evita problemas de quebra de layout */
+    text-align: center;
+
+  }
+
+  .item span {
+    font-size: 24px; /* Tamanho da fonte dos números do contador */
+    display: block;
+  }
+
+  .item p {
+    font-size: 14px; /* Tamanho da fonte das unidades (Anos, Meses, etc.) */
+  }
+  
+  h2 {
+    font-size: 16px; /* Tamanho da fonte do subtítulo */
+  }
+
+  .btn-get-started {
+    font-size: 24px; /* Tamanho da fonte do botão */
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
